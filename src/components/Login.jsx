@@ -60,10 +60,10 @@ function Login() {
           <span className="text-sm mb-5" style={{ color: "#000000" }}>
             বার্তাটি দেখতে সঠিক ইউজার নেম ও পার্সওয়ার্ড দিয়ে লগইন করুন
           </span>
-          <p className="text-red-500">
-            ইউজারনেম: abcd এবং পার্সওয়ার্ড: 1234567890
-          </p>
         </div>
+        <p className="text-red-500">
+          ইউজারনেম: abcd এবং পার্সওয়ার্ড: 1234567890
+        </p>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
