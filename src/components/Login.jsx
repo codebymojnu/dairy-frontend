@@ -61,7 +61,7 @@ function Login() {
             বার্তাটি দেখতে সঠিক ইউজার নেম ও পার্সওয়ার্ড দিয়ে লগইন করুন
           </span>
         </div>
-        <p className="text-red-500">
+        <p className="text-red-500 mb-4 text-left lg:text-center">
           ইউজারনেম: abcd এবং পার্সওয়ার্ড: 1234567890
         </p>
         <form onSubmit={handleSubmit}>
