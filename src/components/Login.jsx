@@ -45,24 +45,27 @@ function Login() {
       <div className="bg-white p-8 rounded-lg shadow-md text-white mr-3 ml-3">
         <div className="flex justify-center">
           <img
-            className="w-20 h-20 rounded-full mb-4"
-            src="/rose.jpg"
+            className="w-40 h-40 rounded-full mb-4"
+            src="/Mehgabin.jpg"
             alt="Profile Avatar"
           />
         </div>
         <h2
-          className="flex justify-center mt-5 text-2xl font-semibold mb-4"
+          className="flex justify-center mt-2 text-2xl font-semibold mb-4"
           style={{ color: "#00A179" }}
         >
-          জনাব/জনাবা,
+          Mehgabin,
         </h2>
-        <div className="flex justify-center mt-5">
+        <div className="flex justify-center mt-2">
           <span className="text-sm mb-5" style={{ color: "#000000" }}>
-            বার্তাটি দেখতে সঠিক ইউজার নেম ও পার্সওয়ার্ড দিয়ে লগইন করুন
+            আপনার জন্য লেখা চিঠিটি দেখতে সঠিক ইউজার নেম ও পার্সওয়ার্ড দিয়ে লগইন
+            করুন
           </span>
         </div>
         <p className="text-red-500 mb-4 text-left lg:text-center">
-          ইউজারনেম: abcd এবং পার্সওয়ার্ড: 1234567890
+          <span className="text-black">ইউজারনেম: </span>mehgabin{" "}
+          <span className="text-black">এবং পার্সওয়ার্ড:</span>
+          chemistry
         </p>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
@@ -99,12 +102,12 @@ function Login() {
           </button>
           {error && (
             <p className="text-red-500 mt-4">
-              <span className="text-green-500">জনাব/জনাবা</span>, {error}
+              <span className="text-green-500">মেহজাবিন</span>, {error}
             </p>
           )}
           {isSubmitting && (
             <p className="text-green-500 transition-opacity duration-300 opacity-100 mt-4 mb-3">
-              <span className="text-red-500">জনাব/জনাবা</span>, দয়া করে একটু
+              <span className="text-red-500">মেহজাবিন</span>, দয়া করে একটু
               অপেক্ষা করুন ...
             </p>
           )}
