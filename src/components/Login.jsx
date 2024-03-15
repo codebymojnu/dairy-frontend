@@ -54,7 +54,7 @@ function Login() {
           className="flex justify-center mt-2 text-2xl font-semibold mb-4"
           style={{ color: "#00A179" }}
         >
-          Mehgabin,
+          Mehjabin,
         </h2>
         <div className="flex justify-center mt-2">
           <span className="text-sm mb-5" style={{ color: "#000000" }}>
@@ -63,7 +63,7 @@ function Login() {
           </span>
         </div>
         <p className="text-red-500 mb-4 text-left lg:text-center">
-          <span className="text-black">ইউজারনেম: </span>mehgabin{" "}
+          <span className="text-black">ইউজারনেম: </span>mehjabin{" "}
           <span className="text-black">এবং পার্সওয়ার্ড:</span>
           chemistry
         </p>
