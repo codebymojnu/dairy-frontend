@@ -80,7 +80,7 @@ const Letter = () => {
   return (
     <div className="h-screen flex justify-center bg-black text-white">
       <div className="w-full md:max-w-md lg:max-w-lg m-2 bg-gray-800 p-6 md:p-8 border border-gray-300 rounded-lg shadow-md">
-        <div className="text-base md:text-lg lg:text-xl font-serif leading-relaxed text-white my-4">
+        <div className="text-base text-justify md:text-lg lg:text-xl font-serif leading-relaxed text-white my-4">
           <div
             style={{
               minHeight: "30em",
