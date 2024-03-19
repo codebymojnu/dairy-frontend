@@ -64,8 +64,8 @@ function Login() {
         </div>
         <p className="text-red-500 mb-4 text-left lg:text-center">
           <span className="text-black">ইউজারনেম: </span>abcd
-          <span className="text-black">এবং পার্সওয়ার্ড:</span>
-          chemistry
+          <span className="text-black"> এবং পার্সওয়ার্ড:</span>
+          mehjabin
         </p>
         <p className="text-red-500 mb-4 text-left lg:text-center">
           বি দ্র: মেহজাবিন নামটি রূপক অর্থে ব্যবহার করা হয়েছে এখানে।
