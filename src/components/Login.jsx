@@ -67,6 +67,9 @@ function Login() {
           <span className="text-black">এবং পার্সওয়ার্ড:</span>
           chemistry
         </p>
+        <p className="text-red-500 mb-4 text-left lg:text-center">
+          বি দ্র: মেহজাবিন নামটি রূপক অর্থে ব্যবহার করা হয়েছে এখানে।
+        </p>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
