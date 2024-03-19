@@ -64,7 +64,7 @@ function Login() {
         </div>
         <p className="text-red-500 mb-4 text-left lg:text-center">
           <span className="text-black">ইউজারনেম: </span>abcd
-          <span className="text-black"> এবং পার্সওয়ার্ড:</span>
+          <span className="text-black"> এবং পার্সওয়ার্ড: </span>
           mehjabin
         </p>
         <p className="text-red-500 mb-4 text-left lg:text-center">
