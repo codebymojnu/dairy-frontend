@@ -46,7 +46,7 @@ function Login() {
         <div className="flex justify-center">
           <img
             className="w-40 h-40 rounded-full mb-4"
-            src="/Mehgabin.jpg"
+            src="/rose.jpg"
             alt="Profile Avatar"
           />
         </div>
