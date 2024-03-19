@@ -63,7 +63,7 @@ function Login() {
           </span>
         </div>
         <p className="text-red-500 mb-4 text-left lg:text-center">
-          <span className="text-black">ইউজারনেম: </span>mehjabin{" "}
+          <span className="text-black">ইউজারনেম: </span>abcd
           <span className="text-black">এবং পার্সওয়ার্ড:</span>
           chemistry
         </p>
