@@ -16,9 +16,9 @@ const Letter = () => {
     "আমি এখানে স্যারকে দেয়ার ৪০০০ টাকা দিই নি। মেসের এক জুনিয়রের ২০০০ টাকা দিই নি। মেসের রুম ভাড়া, খাওয়া ২০০০ টাকা দিই নি। বাসা ভাড়া নেয়ার জন্য ৪০০০ টাকা দরকার।",
     "সব মিলে তের হাজার টাকা আমাকে ম্যানেজ করতে হবে। কিন্তু ম্যানেজ করার রাস্তাগুলো এখন খুব সংকীর্ণ।",
     "আমি তোমার উপর আশা করেছি। হয়তো আশা, বাবাকে যে কোনো ভাবে বুঝিয়ে ম্যানেজ করে, গাড়িতে উঠে পাবনা চলে আসবে। যাতে কেউই ব্যাপারটা বুঝতে না পারে। স্বামীকে একটাবার সুযোগ তো দিতো!",
-    "আশা- অনেক কিছু লিখে ফেললাম। তোমার জীবনকে আমার জীবনের সাথে জড়িয়ে তোমার জীবনকে কঠিন করেছি। আমি এটা অন্যায় করেছি। মাফ করিও। আর আমার জন্য দোয়া করিও।",
+    "আশা- অনেক কিছু লিখে ফেললাম। আমি এটা অন্যায় করেছি। মাফ করিও। আর আমার জন্য দোয়া করিও।",
     "ইতি,",
-    "তোমারই চলার সাথী, মজনু।",
+    "তোমারই  সাথী, মজনু।",
 
     // Add more text blocks as needed
   ];
@@ -84,19 +84,14 @@ const Letter = () => {
   }, [currentText, currentBlockIndex, isTyping, textBlocks, typedBlocks]);
 
   return (
-    <div className="h-screen flex justify-center bg-black text-white">
-      <div className="w-full md:max-w-md lg:max-w-lg m-2 bg-gray-800 p-6 md:p-8 border border-gray-300 rounded-lg shadow-md">
-        <div className="text-base text-justify md:text-lg lg:text-xl font-serif leading-relaxed text-white my-4">
+    <div className=" flex justify-center">
+      <div className="w-full md:max-w-md lg:max-w-lg m-2  p-6 md:p-8 rounded-lg shadow-md">
+        <div className="text-base text-justify md:text-lg lg:text-xl font-serif leading-relaxed my-4">
           <div
             style={{
-              minHeight: "30em",
-              maxHeight: "60em",
-              overflowY: "auto",
-              color: "#0EACEE",
-              fontSize: "14px",
-              lineHeight: "1.5",
               fontFamily: 'Google Sans, "Helvetica Neue", sans-serif',
               fontWeight: 400,
+              fontSize: "14px",
             }}
           >
             {typedBlocks.map((block, index) => (
