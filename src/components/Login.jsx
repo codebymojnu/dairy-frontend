@@ -36,7 +36,7 @@ function Login() {
       .catch((error) => {
         setIsSubmitting(false);
         console.error("Error:", error);
-        setError("আপনি ভুল তথ্য দিয়েছেন। দয়া করে- সঠিক পার্সওয়ার্ডটি দিবেন।");
+        setError("তুমি ভুল পার্সওয়ার্ড দিয়েছো। সঠিক পার্সওয়ার্ডটি দিয়ে চেষ্টা কর।");  
       });
   };
 
@@ -46,30 +46,21 @@ function Login() {
         <div className="flex justify-center">
           <img
             className="w-40 h-40 rounded-full mb-4"
-            src="/mehgabin.jpg"
-            alt="Profile Avatar"
+            src="/asha.jpeg"
+            alt="Asha Photo"
           />
         </div>
         <h2
           className="flex justify-center mt-2 text-2xl font-semibold mb-4"
           style={{ color: "#00A179" }}
         >
-          Mehjabin,
+          আশা, 
         </h2>
         <div className="flex justify-center mt-2">
           <span className="text-sm mb-5" style={{ color: "#000000" }}>
-            আপনার জন্য লেখা চিঠিটি দেখতে সঠিক ইউজার নেম ও পার্সওয়ার্ড দিয়ে লগইন
-            করুন
+           চিঠিটি পড়তে সঠিক ইউজার নাম ও পার্সওয়ার্ড দিয়ে লগইন করো।  
           </span>
         </div>
-        <p className="text-red-500 mb-4 text-left lg:text-center">
-          <span className="text-black">ইউজারনেম: </span>abcd
-          <span className="text-black"> এবং পার্সওয়ার্ড: </span>
-          mehjabin
-        </p>
-        <p className="text-red-500 mb-4 text-left lg:text-center">
-          বি দ্র: মেহজাবিন নামটি রূপক অর্থে ব্যবহার করা হয়েছে এখানে।
-        </p>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <input
@@ -105,13 +96,13 @@ function Login() {
           </button>
           {error && (
             <p className="text-red-500 mt-4">
-              <span className="text-green-500">মেহজাবিন</span>, {error}
+              <span className="text-green-500">আশা</span>, {error} 
             </p>
           )}
           {isSubmitting && (
             <p className="text-green-500 transition-opacity duration-300 opacity-100 mt-4 mb-3">
-              <span className="text-red-500">মেহজাবিন</span>, দয়া করে একটু
-              অপেক্ষা করুন ...
+              <span className="text-red-500">আশা</span>, দয়া করে একটু কিছুক্ষণ 
+              অপেক্ষা করো....
             </p>
           )}
         </form>
