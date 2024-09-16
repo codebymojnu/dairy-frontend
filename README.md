@@ -1,1 +1,1 @@
-ashadairy.vercel.app
+ashadiary.vercel.app
